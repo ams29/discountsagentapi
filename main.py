@@ -390,7 +390,7 @@ async def process_contract(file: UploadFile = File(...)):
                 '  ]\n'
                 "}"
             ),
-            model="gpt-4"  # Ensure this is a correct model name
+            model="gpt-4o-mini"  # Ensure this is a correct model name
         )
         
         # Step 2: Upload files and add them to a Vector Store
